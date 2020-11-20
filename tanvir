@@ -1,0 +1,7 @@
+import pyqrcode
+import png
+from pyqrcode import QRCode
+str = "https://instagram.com/mahim_rahman_?igshid=rugk02ej0qvq"
+url = pyqrcode.create(str)
+url.png("tab.png", scale=20)
+#url.svg("my.svg",scale=20)
